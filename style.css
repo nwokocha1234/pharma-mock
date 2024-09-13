@@ -17,12 +17,28 @@ body {
 /* INDEX SECTION */
 /******************/
 
+#show_bg_2 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(245, 246, 252, 0.52),
+      rgba(117, 19, 93, 0.73)
+    ),
+    url("photos/Development_hero.jpg");
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  /* background-position: center center; */
+  background-repeat: no-repeat;
+  /* color: white; */
+  /* padding: 20px; */
+}
+
 .section-grid {
   padding-top: 5.8rem;
 }
 .image {
   max-width: 100%;
-  height: 100%;
+  /* height: 100%; */
 }
 
 .resume-1 {
@@ -161,6 +177,11 @@ body {
 
 .linki2 {
   position: relative;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
 }
 
 .btn-icon3 {
@@ -320,15 +341,24 @@ nav {
   font-weight: 700;
   text-align: center;
   color: #fff;
-  text-shadow: 3px 2px black;
+  text-shadow: 3px 2px rgba(0, 0, 0, 0.22);
 }
 
 .heading-photo-paragraph {
-  font-size: 3rem;
-  font-weight: 600;
+  font-size: 2.5rem;
+  font-weight: 500;
   text-align: center;
   color: #fff;
-  text-shadow: 3px 2px black;
+  text-shadow: 3px 2px rgba(0, 0, 0, 0.22);
+}
+
+.heading-photo-div {
+  background-image: (
+      to bottom,
+      rgba(245, 246, 252, 0.52),
+      rgba(117, 19, 93, 0.73)
+    ),
+    url("images/background.jpg");
 }
 
 .heading-photo {
