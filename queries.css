@@ -51,7 +51,7 @@
   }
 }
 
-@media (max-width: 48em) {
+@media (max-width: 60em) {
   .grid--2cols--3rows {
     grid-template-columns: 1fr;
     grid-template-rows: auto 1fr auto 1fr auto auto;

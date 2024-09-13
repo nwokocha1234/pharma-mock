@@ -38,6 +38,7 @@ body {
 }
 .image {
   max-width: 100%;
+  width: 100%;
   /* height: 100%; */
 }
 
@@ -170,6 +171,16 @@ body {
 }
 
 .pos-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.link-config {
+  text-decoration: none;
+}
+
+.box-link {
   display: flex;
   align-items: center;
   justify-content: center;
