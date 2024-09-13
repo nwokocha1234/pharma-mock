@@ -1,0 +1,38 @@
+.txt-size {
+  font-size: 2.7rem;
+}
+
+.grid--solution {
+  display: grid;
+  gap: 5rem;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+@media (max-width: 45em) {
+  .grid--solution {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 28em) {
+  .find-out {
+    font-size: 1.7rem;
+  }
+  .card-title {
+    font-size: 2.2rem;
+  }
+}
+
+@media (max-width: 26em) {
+  .txt-size {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 24em) {
+  .card-title.phpt {
+    font-size: 1.5rem;
+  }
+}

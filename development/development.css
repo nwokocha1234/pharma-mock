@@ -1,0 +1,289 @@
+.development-photo {
+  position: relative;
+}
+
+.inner-development-photo {
+  position: absolute;
+  top: 50%;
+  transform: translate(120%, -60%);
+  text-align: center;
+  width: 40%;
+}
+
+.development-heading {
+  font-size: 4.8rem;
+  padding-bottom: 3.2rem;
+  color: #adb5bc;
+  font-weight: 400;
+}
+
+.development-paragraph {
+  font-size: 2.5rem;
+  line-height: 1.5;
+  color: #495057;
+}
+
+.development-2 {
+  padding: 5rem 12.8rem;
+}
+
+.dev-center {
+  max-width: 70rem;
+  margin: 0 auto;
+  border-bottom: 2px solid #adb5bc;
+  padding-bottom: 3rem;
+}
+
+.dev-center h3 {
+  font-size: 2rem;
+  color: darkgoldenrod;
+  text-align: center;
+  padding-bottom: 1.7rem;
+}
+
+.development-p {
+  font-size: 2rem;
+  line-height: 1.5;
+  text-align: center;
+  color: #343a40;
+}
+.development-p:not(:last-child) {
+  padding-bottom: 3rem;
+}
+
+/******************/
+/* SECTION-3 */
+/******************/
+
+.our-development-section {
+  max-width: 80rem;
+  margin: 0 auto;
+  padding-bottom: 6rem;
+}
+.our-development-section h3 {
+  font-size: 2rem;
+  color: darkgoldenrod;
+  text-align: center;
+  padding: 3rem 0;
+}
+
+.grid--2cols--2rows {
+  display: grid;
+  gap: 5rem;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.card1 {
+  background-color: #fff;
+  padding: 5rem 3rem;
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  border-radius: 22px;
+  position: relative;
+  overflow: hidden;
+  opacity: 90%;
+  transition: all 0.4s;
+}
+
+.find-out {
+  text-align: center;
+  background-color: #495057;
+  padding: 1.3rem 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  font-size: 2.2rem;
+  opacity: 30%;
+  transition: all 0.4s;
+  color: #fff;
+}
+
+.card-title {
+  font-size: 3rem;
+  text-align: center;
+  padding-bottom: 2rem;
+  opacity: 30%;
+  transition: all 0.4s;
+}
+
+.clickable-link:link,
+.clickable-link:visited {
+  text-decoration: none;
+  color: #000;
+  transition: all 0.3s;
+}
+
+.card1:hover .find-out {
+  opacity: 90%;
+}
+
+.card1:hover .card-title {
+  opacity: 90%;
+}
+
+/****************************/
+/* MANUFACTURING SUPPORT */
+/****************************/
+
+.manufacturing-support {
+  padding: 6.8rem 2rem 5rem 2rem;
+}
+
+.manufacturing-heading {
+  font-size: 3.3rem;
+  text-align: center;
+  font-weight: 400;
+  padding-bottom: 2.2rem;
+}
+
+.manufacturing-div {
+  max-width: 120rem;
+  margin: 0 auto;
+  background-color: #f1f3f5;
+  padding: 3.3rem 7rem;
+}
+.manufacturing-p {
+  text-align: center;
+  font-size: 2.2rem;
+  padding-bottom: 2.2rem;
+  color: #868e96;
+}
+
+.button-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fo-button:link,
+.fo-button:visited {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #495057;
+  padding: 1.3rem 3rem;
+  font-size: 1.7rem;
+  color: #fff;
+  border-radius: 6px;
+  opacity: 70%;
+}
+
+/*  QUERY */
+/* BIG-PHOTO DEVELOPMENT */
+@media (max-width: 78em) {
+  .development-heading {
+    font-size: 4rem;
+  }
+
+  .development-paragraph {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 69em) {
+  .development-heading {
+    font-size: 2.2rem;
+    padding-bottom: 2.2rem;
+  }
+  .development-paragraph {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 44em) {
+  .development-heading {
+    font-size: 1.6rem;
+    padding-bottom: 1rem;
+  }
+  .development-paragraph {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 31em) {
+  .development-heading {
+    font-size: 1.2rem;
+  }
+  .development-paragraph {
+    font-size: 1rem;
+    line-height: 1.2;
+  }
+}
+
+@media (max-width: 25em) {
+  .development-heading {
+    font-size: 1rem;
+    padding-bottom: 0.5rem;
+  }
+}
+
+/* QUERY SECTION DEVELOPMENT */
+
+@media (max-width: 53em) {
+  .our-development-section {
+    padding-right: 5rem;
+    padding-left: 5rem;
+  }
+}
+
+@media (max-width: 45em) {
+  .grid--2cols--2rows {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 28em) {
+  .find-out {
+    font-size: 1.7rem;
+  }
+  .card-title {
+    font-size: 2.2rem;
+  }
+}
+
+/*******************************************/
+/* MANUFACTURING PAGE */
+/*****************************************/
+.grid--2cols--3rows {
+  display: grid;
+  gap: 5rem;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+/*****************************************/
+/* MEDIA QUERY FOR MANUFACTURING PAGE */
+/*****************************************/
+
+.pad-heading {
+  padding-bottom: 1rem;
+}
+
+@media (max-width: 40em) {
+  .grid--2cols--3rows {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+  }
+}
+
+@media (max-width: 35em) {
+  .pad-heading {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 26em) {
+  .pad-heading {
+    font-size: 0.6rem;
+  }
+}
+
+@media (max-width: 33em) {
+  .development-2 {
+    padding: 5rem 4.8rem;
+  }
+}

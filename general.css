@@ -1,0 +1,20 @@
+.grid--2cols--3rows {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.flex-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid--3-cols {
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr;
+  justify-content: center;
+  /* align-items: center; */
+  /* gap: 6rem; */
+}

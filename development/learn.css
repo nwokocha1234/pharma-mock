@@ -1,0 +1,70 @@
+.learn-div h3 {
+  font-size: 2rem;
+  color: darkgoldenrod;
+  text-align: center;
+  padding: 8rem 0 1rem 0;
+}
+
+.learn-div h2 {
+  text-align: center;
+  font-size: 5.2rem;
+  font-weight: 400;
+  color: #333;
+  padding-bottom: 1.2rem;
+}
+
+.learn-div p {
+  text-align: center;
+  font-size: 2rem;
+  color: #333;
+  padding-bottom: 8rem;
+}
+
+.row {
+  max-width: 90%;
+  margin-bottom: 3rem;
+  margin-right: auto;
+  margin-left: 5rem;
+}
+
+.inner-row {
+  display: flex;
+  gap: 2rem;
+  padding: 2.3rem 2rem;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid darkred;
+  border-radius: 22px;
+}
+
+.div-h2 {
+  text-align: center;
+  color: darkgoldenrod;
+}
+
+.div-p a:link,
+.div-p a:visited {
+  text-decoration: none;
+  color: #adb5bd;
+  font-size: 2.5rem;
+}
+
+@media (max-width: 40em) {
+  .div-p a:link,
+  .div-p a:visited {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 28em) {
+  .div-p a:link,
+  .div-p a:visited {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 42em) {
+  .row {
+    margin-left: 2rem;
+  }
+}

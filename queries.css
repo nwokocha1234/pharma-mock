@@ -1,0 +1,102 @@
+/* NAVIGATION */
+
+@media (max-width: 74em) {
+  .nav-list {
+    display: none;
+  }
+  .nav-menu {
+    display: block;
+  }
+}
+
+/* BIG PHOTO SECTION */
+@media (max-width: 56em) {
+  .photo-heading {
+    font-size: 2.7rem;
+    font-weight: 500;
+  }
+  .heading-photo-paragraph {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 39em) {
+  .photo-heading {
+    font-size: 2.3rem;
+  }
+  .heading-photo-paragraph {
+    font-size: 1.6rem;
+  }
+}
+@media (max-width: 32em) {
+  .photo-heading {
+    font-size: 1.8rem;
+  }
+  .heading-photo-paragraph {
+    font-size: 1.3rem;
+  }
+}
+@media (max-width: 24em) {
+  .photo-heading {
+    font-size: 1.3rem;
+  }
+  .heading-photo-paragraph {
+    font-size: 1rem;
+  }
+}
+
+/* GRID SECTION */
+@media (max-width: 65em) {
+  .heading-resume {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 48em) {
+  .grid--2cols--3rows {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+  }
+  .resume-2 {
+    grid-row: 4;
+  }
+  .resume-3 {
+    padding: 2rem 2.2rem;
+  }
+}
+
+/* CONTACT US SECTION */
+@media (max-width: 73em) {
+  .grid--3-cols {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+  }
+  .col3 {
+    padding-top: 8rem;
+  }
+}
+
+/* SECTION-3 */
+@media (max-width: 34em) {
+  .center h2 {
+    font-size: 1.6rem;
+  }
+  .center h1 {
+    font-size: 3.2rem;
+  }
+  .center p {
+    font-size: 1.7rem;
+  }
+}
+
+/********************/
+/* LAST-SECTION */
+/********************/
+@media (max-width: 31em) {
+  .last-div p {
+    text-align: start;
+    font-size: 1.2rem;
+  }
+  .section-4 {
+    padding-left: 1.4rem;
+  }
+}
