@@ -47,6 +47,19 @@
   color: #333;
   margin-bottom: 2rem;
 }
+
+.directors-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+  list-style: decimal;
+  margin-left: 2rem;
+  margin-bottom: 2.5rem;
+}
+.directors-item {
+  font-size: 2rem;
+}
+
 /*****************************/
 /* RESPONSIVE ABOUT PAGE */
 /*****************************/

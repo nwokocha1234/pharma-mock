@@ -66,12 +66,9 @@
 
 /* CONTACT US SECTION */
 @media (max-width: 73em) {
-  .grid--3-cols {
+  .grid--3-cols-1-row {
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(3, 1fr);
-  }
-  .col3 {
-    padding-top: 8rem;
+    grid-template-rows: repeat(3, auto);
   }
 }
 

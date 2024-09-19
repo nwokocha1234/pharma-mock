@@ -18,3 +18,11 @@
   /* align-items: center; */
   /* gap: 6rem; */
 }
+
+.grid--3-cols-1-row {
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr;
+  justify-content: center;
+  /* align-items: center; */
+  gap: 6rem;
+}
