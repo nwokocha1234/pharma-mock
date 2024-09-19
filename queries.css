@@ -1,11 +1,17 @@
 /* NAVIGATION */
 
-@media (max-width: 74em) {
+@media (max-width: 72em) {
   .nav-list {
     display: none;
   }
   .nav-menu {
     display: block;
+  }
+}
+@media (max-width: 23em) {
+  .logo-paragraph:link,
+  .logo-paragraph:visited {
+    font-size: 1.7rem;
   }
 }
 

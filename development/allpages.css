@@ -138,3 +138,18 @@ nav {
   /* left: 50%; */
   /* transform: translate(-50%, -50%); */
 }
+
+/* NEW NAV  */
+.logo-paragraph:link,
+.logo-paragraph:visited {
+  font-size: 1.8rem;
+  color: #000;
+  transition: all 0.3s;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.logo-paragraph:hover {
+  color: #adb5bd;
+}
