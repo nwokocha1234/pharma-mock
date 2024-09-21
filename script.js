@@ -11,3 +11,19 @@ var Tawk_API = Tawk_API || {},
   s1.setAttribute("crossorigin", "*");
   s0.parentNode.insertBefore(s1, s0);
 })();
+
+const nav = document.querySelector(".nav-menu");
+const menu = document.querySelector(".phone-navbar");
+const closenav = document.querySelector(".close-menu");
+
+nav.addEventListener("click", () => {
+  menu.classList.toggle("hidden");
+  nav.classList.toggle("hidden");
+  closenav.classList.toggle("hidden");
+});
+
+closenav.addEventListener("click", () => {
+  menu.classList.toggle("hidden");
+  closenav.classList.toggle("hidden");
+  nav.classList.toggle("hidden");
+});
