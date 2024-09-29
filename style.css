@@ -17,6 +17,10 @@ body {
 /* INDEX SECTION */
 /******************/
 
+main {
+  background-color: #e9ecef;
+}
+
 #show_bg_2 {
   background-image: linear-gradient(
       to bottom,
@@ -77,11 +81,13 @@ body {
   padding: 5.2rem 0 3.2rem 0;
 }
 
+/* #adb5bd; */
+
 .second-div p {
   font-size: 1.6rem;
   line-height: 1.6;
   font-style: italic;
-  color: #adb5bd;
+  color: #868e96;
   padding-top: 1rem;
 }
 
